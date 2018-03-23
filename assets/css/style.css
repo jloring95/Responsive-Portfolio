@@ -80,6 +80,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  padding-right: 25px;
 }
 
 nav a {
@@ -126,12 +127,30 @@ h3, h2 {
 
 .main-section {
   float: left;
-  width: 100%;
+  width: 60%;
   max-width: 960px;
   padding: 30px;
-  margin: 0 0 40px;
+  margin: 0 0 40px 10px;
   background: #fff;
   border: 1px solid #ddd;
+}
+
+.connect-section{
+  float: left;
+  width: 33%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.logo-image {
+  float: left;
+  width: 40px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 /* portfolio page */
@@ -139,7 +158,7 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 100%;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -170,7 +189,7 @@ h3, h2 {
 
 .auth-image {
   float: left;
-  width: 200px;
+  width: 100%;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -214,4 +233,111 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .main-section {
+    float: left;
+    width: 97%;
+    max-width: 760px;
+    padding: 30px;
+    padding-right: 15px;
+    margin-right: 20px;
+    margin: 0 0 40px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .connect-section{
+    float: left;
+    width: 97%;
+    max-width: 760px;
+    padding: 30px;
+    margin: 0 0 40px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 45%;
+    margin: 20px 0 20px;
+    overflow: auto;
+  }
+  .auth-image {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 640px){
+  .main-section {
+    float: left;
+    width: 97%;
+    max-width: 760px;
+    padding: 30px;
+    padding-right: 15px;
+    margin-right: 20px;
+    margin: 0 0 40px 10px;
+    margin-top:60px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .connect-section{
+    float: left;
+    width: 97%;
+    max-width: 760px;
+    padding: 30px;
+    margin: 0 0 40px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 97%;
+    margin: 20px 0 20px;
+    overflow: auto;
+  }
+  .auth-image {
+    float: left;
+    width: 97%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  #logo {
+  
+    width: 100%;
+    height: 80px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  nav a {
+    width:31%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    text-align: center;
+  }
+
 }
